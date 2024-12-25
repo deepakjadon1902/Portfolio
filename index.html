@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile picture.jpg" alt="Deepak Jadon" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Deepak Jadon">Deepak Jadon</h1>
+
+          <p class="title">Web developer & Software developer </p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:deepakjadon1907@gmail.com" class="contact-link">deepakjadon1907@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+9149370081" class="contact-link">+91 9149370081</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-07-19">July 19, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Naurangabad, Aligarh, INDIA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Deepakjadon1902?tab=repositories" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/deepak-jadon-612487272" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        
+        </ul>
+        
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>I’m Deepak Jadon, a Software and Web Developer based in Aligarh, India. I focus on creating efficient software solutions and dynamic websites. I excel at turning complex requirements into functional and user-friendly digital experiences that meet business goals and enhance brand identity.
+          </p>
+
+          <p>
+            My job is to develop software and websites that are functional, user-friendly, and visually appealing. Additionally, I analyze data to extract valuable insights that drive informed decisions. My goal is to deliver effective solutions that align with your objectives and showcase your brand's identity.
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software development</h4>
+
+                <p class="service-item-text">
+                  The most advanced and high-quality software solutions developed at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2023-02-23">23 Feb, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  "Deepak Jadon stands out as a skilled professional in web and software development. They deliver solutions that seamlessly combine functionality with efficiency, creating software and websites that are both visually appealing and highly user-friendly. Their dedication to understanding and implementing our vision was clear in every interaction and decision."
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+
+
+<article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Education</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">GLA University, Mathura</h4>
+        <span>2022 — 2026</span>
+        <p class="timeline-text">
+          Pursuing B.Tech with a current CGPI of 7.38.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">SJD Memorial Public School, Aligarh</h4>
+        <span>2021 — 2022</span>
+        <p class="timeline-text">
+          Completed Intermediate (Class 12) with 74.38%.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">SJD Memorial Public School, Aligarh</h4>
+        <span>2020 — 2021</span>
+        <p class="timeline-text">
+          Completed High School (Class 10) with 80%.
+        </p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Projects</h3>
+    </div>
+  
+    <ol class="timeline-list">
+  
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">
+          <a href="https://e-commerce-ten-liart-30.vercel.app/" target="_blank">E-commerce Website</a>
+        </h4>
+        <span>2024</span>
+        <p class="timeline-text">Contributed to the development of a full-stack e-commerce platform by designing and implementing a user-friendly and visually appealing front-end interface.</p>
+      </li>
+  
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">
+          <a href="portfolio-website.html" target="_blank">Portfolio Website</a>
+        </h4>
+        <span>2024</span>
+        <p class="timeline-text">Developed a professional portfolio website to showcase expertise in software development, web development, and data analysis.</p>
+      </li>
+  
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">
+          <a href="https://github.com/deepakjadon1902/Collaboration-tool-GLA-IntegraMinds-.git" target="_blank">CV-Crafter(Collaborative Tools)</a>
+        </h4>
+        <span>2024</span>
+        <p class="timeline-text">Contributed to the development of a collaborative CV creation tool by implementing real-time commenting, rating, and feedback editing features.</p>
+      </li>
+  
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">
+          <a href="https://weather-app-eight-sigma-86.vercel.app/" target="_blank">Weather App</a>
+        </h4>
+        <span>2024</span>
+        <p class="timeline-text">Developed a user-friendly Weather App platform using HTML, CSS, and React, focusing on intuitive navigation and seamless user experience.</p>
+      </li>
+  
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">
+          <a href="https://age-calculator-two-eosin.vercel.app/" target="_blank">Age Calculator App</a>
+        </h4>
+        <span>2024</span>
+        <p class="timeline-text">Developed a user-friendly Age Calculator application using React Native.</p>
+      </li>
+  
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">
+          <a href="https://effortless-axolotl-4eb038.netlify.app/" target="_blank">Task Management System App</a>
+        </h4>
+        <span>2024</span>
+        <p class="timeline-text">Developed a Task Management System using React, enabling users to create, prioritize, and track tasks efficiently.</p>
+      </li>
+  
+    </ol>
+  
+  </section>
+  
+
+  
+
+  <section class="skill">
+
+    <h3 class="h3 skills-title">My Skills</h3>
+  
+    <ul class="skills-list content-card">
+  
+      <h4 class="h4">Professional Skills :</h4>
+
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Teamwork, Problem-Solving, Project Management, Client Interaction.</h5>
+        </div>
+      </li>
+      
+      <h4 class="h4">Technical Skills :</h4>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">API Development & Integration, AWS, Bootstrap, CSS3, Flask, Git & GitHub, HTML5, JavaScript, MongoDB, Node.js, React.js / React Native, Python, Tailwind CSS, VS Code, SQL, Data Analysis & Visualization, Data Cleaning, Pandas, NumPy, Matplotlib, Power BI, Tableau, Data Reporting & Dashboards.   </h5>
+        </div>
+      </li>
+  
+      
+    </ul>
+  
+  </section>
+  
+  
+  
+  <!-- Certifications Section & Key Achievements-->
+  <section class="certifications">
+    <h3 class="h3">Certifications & Key Achievements</h3>
+    <ul class="certifications-list content-card">
+      <div class="title-wrapper">
+        <li><a href="C:\Users\in\Pictures\cetificate summer.png" target="_blank">Data Structure and Algorithms: Deep Dive Using Java, CodingBlocks | July 2024</a></li>
+      <li><a href="C:\Users\in\Downloads\Ethics In Engineering Practice.pdf" target="_blank">Ethics in Engineering Practice, IIT Kharagpur | Nov 2023</a></li>
+      <li><a href="C:\Users\in\Downloads\Introduction To Environmental Engineering And Science - Fundamental And Sustainability Concepts.pdf" target="_blank">Introduction to Environmental Engineering and Science, IIT Kharagpur | Nov 2024</a></li>
+      <li><a href="C:\Users\in\Downloads\E-Business.pdf" target="_blank">E-Business, IIT Kharagpur | Nov 2024</a></li>
+      <li><a href="https://leetcode.com/u/2CQUTituFy" target="_blank">Completed 150+ questions on LeetCode.</a></li>
+      </div>
+    </ul>
+  </section>
+
+  <style>
+    .declaration p {
+      color: white;
+    }
+  </style>
+  
+  <!-- Declaration Section -->
+  <section class="declaration">
+    <h3 class="h3">Declaration</h3>
+    <p>I hereby declare that all the above-mentioned information is true and correct to the best of my knowledge.</p>
+  </section>
+  
+  
+  
+</article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Software development</button>
+              </li>
+
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project4.png" alt="E-commerce" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E-commerce</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project2.png" alt="Portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Software development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project3.png" alt="Weather App" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather App</h3>
+
+                <p class="project-category">Software development</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="Software development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project1.png" alt="Age Calculator App" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Age Calculator App</h3>
+
+                <p class="project-category">Software development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Software development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project5.png" alt="Task Management App" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Management App</h3>
+
+                <p class="project-category">Software development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project6.png" alt="Collaborative Tools" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Collaborative Tools </h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+  <!--
+    - #CONTACT
+-->
+
+<article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <section class="mapbox" data-mapbox>
+    <figure>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7053.834422876102!2d78.08168319059236!3d27.87381338845316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974a360193735c9%3A0x9d9ba23da8eded39!2sNaurangabad%2C%20Aligarh%2C%20Uttar%20Pradesh%20202001!5e0!3m2!1sen!2sin!4v1731044652989!5m2!1sen!2sin"
+        width="400" height="300" loading="lazy"></iframe>
+    </figure>
+  </section>
+
+  <section class="contact-info">
+
+    <h3 class="h3 form-title">Contact Information</h3>
+
+    <ul>
+      <li><strong>Address:</strong> Kundan Nagar, Naurangabad, Aligarh</li>
+      <li><strong>Phone:</strong> +91 9149370081</li>
+      <li><strong>Email:</strong> deepakjadon1907@gmail.com</li>
+    </ul>
+
+  </section>
+
+  <section class="contact-form">
+
+    <h3 class="h3 form-title">Contact Form</h3>
+
+    <form action="#" class="form" data-form>
+
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
+
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+      <button class="form-btn" type="submit" disabled data-form-btn>
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+
+    </form>
+
+  </section>
+
+</article>
+
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
