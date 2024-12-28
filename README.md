@@ -34,7 +34,7 @@ Follow these steps to view or run the project locally:
 
 ## Live Demo
 
-Check out the live version of the website here: [Your Portfolio](https://your-live-portfolio-link.com)
+Check out the live version of the website here: (https://portfolio-deepakjadon1902s-projects.vercel.app/)
 
 ## Contact
 
